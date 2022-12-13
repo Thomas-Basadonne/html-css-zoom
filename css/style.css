@@ -1,0 +1,79 @@
+/* generics */
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+/* header */
+header{
+    text-align: right;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+header button{
+    margin: 5px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: inherit;
+    border: none;
+    background-color: gray;
+}
+
+/* main */
+.partecipants-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: calc(100vh -40px -80px);
+}
+
+.partecipants-container>section{
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    display: inline-block;
+    padding: 2px;
+    background-color: rgba(100, 100, 100, .6);
+}
+
+/* footer */
+
+footer{
+    background-color: #333;
+    margin-top: 40px ;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>div{
+    display: flex;
+}
+
+.icon{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    color: green;
+}
+
+.end{
+     line-height: 80px;
+     padding: 0 10px;
+     background-color: lightslategray;
+     color: red;
+}
